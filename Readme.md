@@ -1,9 +1,8 @@
 # Number Guessing Game
 
-A Number guessing game in which you generate a random number and compare it to a user's input. This project used globals and randint
+The aim of the project was to create a Number guessing game in which you generate a random number and compare it to a user's input. This project used globals and randint
 
 Requirements:
-
 - Tell the user the number range they will be guessing within
 - Ask the user for an input
 - Print what they answered and state if it is correct or incorrect
