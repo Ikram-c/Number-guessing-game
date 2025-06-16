@@ -1,0 +1,11 @@
+# Conda environment configuration file
+# To create this environment, run: conda env create -f environment.yaml
+# To activate this environment, run: conda activate number-game-env
+
+name: number-game-env
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.9
