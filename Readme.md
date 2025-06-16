@@ -1,13 +1,17 @@
 # Number Guessing Game
 
-The aim of the project was to create a Number guessing game in which you generate a random number and compare it to a user's input. This project used globals and randint
+A simple command-line number guessing game built with Python. The program generates a random number, and the user must guess it within three attempts.
 
-Requirements:
-- Tell the user the number range they will be guessing within
-- Ask the user for an input
-- Print what they answered and state if it is correct or incorrect
-- Then print whether or not it is higher or lower
-- If it is incorrect, allow user to guess a total of 3 times
-- If they are out of guesses or have guessed the correct number Print out their guesses and the correct number
-- Ask the user if they want to play again
-- If they decide to stop playing, output the number of attempts and correct guesses
+## How to Play
+
+1.  Run the game from your terminal:
+    ```sh
+    python game.py
+    ```
+2.  The game will generate a random number between 1 and 10.
+3.  You have **3 attempts** to guess the correct number.
+4.  After each guess, the game will tell you if your guess was **too high** or **too low**.
+5.  If you guess correctly, you win the round!
+6.  If you run out of attempts, the game will reveal the secret number.
+7.  After each round, you can choose to play again or quit.
+8.  When you quit, the game will display your final score, including total attempts and games won.
